@@ -17,7 +17,7 @@
 该项目使用JDK17版本，安装Zookeeper3.4.6版本
 
 ## 测试项目运行
-在RPC项目下启动RpcApplication类启动服务端，client项目下启动TCPClient的main方法发送消息。
+- 在RPC项目下启动RpcApplication类启动服务端，client项目下启动TCPClient的main方法发送消息。
 **服务端启动成功**
 <img width="1787" height="960" alt="NettyServer" src="https://github.com/user-attachments/assets/fa8339bf-9a3f-4bc4-aaab-d868e50bf52c" />
 **客户端成功发送和接收**
