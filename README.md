@@ -18,11 +18,11 @@
 
 ## 测试项目运行
 - 在RPC项目下启动RpcApplication类启动服务端，client项目下启动TCPClient的main方法发送消息。
-**服务端启动成功**
+- **服务端启动成功**
 <img width="1787" height="960" alt="NettyServer" src="https://github.com/user-attachments/assets/fa8339bf-9a3f-4bc4-aaab-d868e50bf52c" />
-**客户端成功发送和接收**
+- **客户端成功发送和接收**
 <img width="1800" height="945" alt="client" src="https://github.com/user-attachments/assets/bbd702a4-bed7-4a8d-85c2-cc85958aeaa3" />
-**成功启动Zookeeper服务器**
+- **成功启动Zookeeper服务器**
 <img width="1102" height="618" alt="zookeeper-server" src="https://github.com/user-attachments/assets/de5de17f-5bf0-4774-8aae-2bc908bae6f7" />
 
 
