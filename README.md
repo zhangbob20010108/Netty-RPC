@@ -14,7 +14,11 @@
 - **负载均衡连接**
 
 ## 注意事项
-该项目使用JDK17版本，安装Zookeeper3.4.6版本
+- 该项目使用JDK17版本，安装Zookeeper3.4.6版本
+- Zookkeeper监视器负责更新服务端存活状态，涉及到多线程同步安全的问题，在高并发的情况下可能会出现监视器更新完成前客户端获取无效连接。
+
+
+
 
 ## 测试项目运行
 - 在RPC项目下启动RpcApplication类启动服务端，client项目下启动TCPClient的main方法发送消息。
@@ -27,6 +31,7 @@
 
 **成功启动Zookeeper服务器**
 <img width="1102" height="618" alt="zookeeper-server" src="https://github.com/user-attachments/assets/de5de17f-5bf0-4774-8aae-2bc908bae6f7" />
+
 
 
 
